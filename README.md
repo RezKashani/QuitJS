@@ -1,18 +1,20 @@
 # quitjs [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > resignation letter in seconds
 
-## Installation
+this is a Node.js app that makes a PDF resignation letter based on given parameters or default values.
+I made this for fun and a quick hands on with Node.js.
 
-```sh
-$ npm install --save quitjs
-```
+## Note
+It currently only works with Persian (fa-IR) language.
 
 ## Usage
 
-```js
-var quitjs = require('quitjs');
+clone this repo and run following in the folder. all options must be in Persian and if any of them isn't provided it will be filled up with default values.
 
-quitjs('Rainbow');
+The output file is ``quit.pdf``
+
+```sh
+node QUIT.js {First Name} {Last Name} {Employee Number} {Reason for Quitting}
 ```
 ## License
 
