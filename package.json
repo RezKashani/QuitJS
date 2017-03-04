@@ -49,5 +49,8 @@
     "prepublish": "gulp prepublish",
     "test": "gulp"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pdfkit": "^0.8.0"
+  }
 }
